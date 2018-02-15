@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.wipro.chcare.ccc.openCart002_OrderHistory">
+        <methods>
+          <include name="addToShoppingCart89and10"/>
+          <include name="endReport"/>
+          <include name="homePageNavigation"/>
+          <include name="checkOutConfirmOrder"/>
+          <include name="initializeReport"/>
+          <include name="orderHistory"/>
+          <include name="loginApp"/>
+          <include name="getResult"/>
+          <include name="windup"/>
+          <include name="openApp"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- com.wipro.chcare.ccc.openCart002_OrderHistory -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
